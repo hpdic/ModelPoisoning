@@ -3,6 +3,9 @@
 This code accompanies the paper 'Analyzing Federated Learning through an Adversarial Lens' which has been accepted at ICML 2019. It assumes that the Fashion MNIST data and Census data have been downloaded to /home/data/ on the user's machine.
 
 Dependencies: Tensorflow-1.8, keras, numpy, scipy, scikit-learn
+  * We suggest using Anaconda to create a virtual environment first, then
+  * Update pip: `pip install --upgrade pip`
+  * Make sure to install all dependencies: `pip install tensorflow keras numpy scipy scikit-learn` # Tensorflow 2.7 works fine
 
 To run federated training with 10 agents and standard averaging based aggregation, use
 ```
