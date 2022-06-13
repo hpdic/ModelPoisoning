@@ -9,7 +9,7 @@ Dependencies: Tensorflow-1.8, keras, numpy, scipy, scikit-learn
 
 To run federated training with 10 agents and standard averaging based aggregation, use
 ```
-python dist_train_w_attack.py --dataset=MNIST --k=10 --C=1.0 --E=5 --T=40 --train --model_num=0 --gar=avg
+python dist_train_w_attack.py --dataset=MNIST --k=10 --C=1.0 --E=5 --T=2 --train --model_num=0 --gar=avg
 ```
 To run the basic targeted model poisoning attack, use
 ```
